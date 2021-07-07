@@ -1,9 +1,11 @@
+import puppeteer from "puppeteer";
+
 describe(
   '/ (Home Page)',
   () => {
     let page;
     beforeAll(async () => {
-      page = await global.__BROWSER__.newPage();
+      page = await BROWSER.newPage();
       await page.goto('https://google.com');
     });
 

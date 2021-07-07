@@ -1,14 +1,12 @@
+import puppeteer from "puppeteer";
+
 describe(
   '/ (Home Page)',
   () => {
     let page;
     beforeAll(async () => {
-      page = await global.__BROWSER__.newPage();
+      page = await BROWSER.newPage();
       await page.goto('https://example.com');
-    });
-
-    afterAll(async () => {
-      await page.close();
     });
 
     it('should load without error', async () => {
