@@ -1,0 +1,29 @@
+{
+  "name": "jest-puppeteer-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "@babel/preset-typescript": "^7.14.5",
+    "@types/jest": "^26.0.24",
+    "babel-jest": "^27.0.6",
+    "jest": "^27.0.6",
+    "puppeteer": "^10.1.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manvel/jest-puppeteer-typescript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Manvel/jest-puppeteer-typescript/issues"
+  },
+  "homepage": "https://github.com/Manvel/jest-puppeteer-typescript#readme"
+}
